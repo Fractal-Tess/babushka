@@ -1,0 +1,21 @@
+@import '@fontsource/roboto/cyrillic.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html,
+body {
+  @apply h-screen;
+  -webkit-font-smoothing: antialised;
+}
+
+@layer utilities {
+  .dev {
+    @apply border-[1px];
+  }
+  .devo {
+    @apply outline-dashed outline-1;
+  }
+}
